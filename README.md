@@ -42,16 +42,12 @@ cd news-aggregator-sb-BE
 npm install
 ```
 
-## Build and start the application:
-
-### Development
-
-npm run dev
-
-### Production
-
-npm start
+## Import and Start the application:
 
 ### Import articles
 
 npm run import
+
+### Start the application
+
+npm start
