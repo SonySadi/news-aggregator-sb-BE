@@ -1,0 +1,28 @@
+{
+  "name": "news-aggregator",
+  "version": "1.0.0",
+  "description": "RSS news aggregator with topic extraction",
+  "main": "dist/index.js",
+  "scripts": {
+    "import": "tsc && node dist/import.js",
+    "start": "tsc && node dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.1",
+    "openai": "^3.3.0",
+    "rss-parser": "^3.13.0",
+    "sqlite3": "^5.1.6",
+    "typeorm": "^0.3.17"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
